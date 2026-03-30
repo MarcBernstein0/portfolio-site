@@ -23,10 +23,10 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #013984;">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="static/img/logo.png" class="img-fluid" style="max-height:40px;" alt="Logo" />
+        <img src="static/img/1625174961193.jpeg" class="img-fluid rounded-circle" style="max-height:40px;" alt="Logo" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,13 +41,10 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="#personal-projects">Personal Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -56,21 +53,16 @@
   <!-- Navbar -->
 
   <!-- Hero -->
-  <div class="p-5 text-center bg-image" style="
-      background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
-      height: 400px;
-      margin-top: 58px;
-    ">
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white">
-          <h1 class="mb-3">Heading</h1>
-          <h4 class="mb-3">Subheading</h4>
-          <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a>
+  <section class="bgimage" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+          <h2 class="hero_title">Hi, it's me Marc</h2>
+          <p class="hero_desc">I am a FullStack Software Engineer in New York City</p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- Hero -->
 
   <!-- About Section -->
@@ -119,29 +111,31 @@
       </div>
   </section>
 
-  <!-- portfolio section-->
-  <section id="portfolio">
+  <!-- personal projects section-->
+  <section id="personal-projects">
     <div class="container mt-3">
-      <h1 class="text-center">Portfolio</h1>
+      <h1 class="text-center">Personal Projects</h1>
       <div class="row">
         <div class="col-lg-4 mt-4">
           <div class="card">
-            <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="static/img/logo.png" alt="Card image" style="width:100%">
             <div class="card-body">
               <h4 class="card-title">CPUBoundBot</h4>
-              <p class="card-text">Company monitoring tool to monitor CPU usage on server cluster and notify users if they have gone over
-CPU limit. The tool lives on the company’s on-premise server cluster.</p>
+              <p class="card-text">Company monitoring tool to monitor CPU usage on server cluster and notify users if
+                they have gone over
+                CPU limit. The tool lives on the company’s on-premise server cluster.</p>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 mt-4">
           <div class="card portfolioContent">
-            <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="static/img/logo.png" alt="Card image" style="width:100%">
             <div class="card-body">
               <h4 class="card-title">Match Display</h4>
-              <p class="card-text"> Developed a frontend site built in React.js using Typescript and a backend API in GO that will collect all
-in-progress tournaments from a user on the site challonge.com and display pending matches.</p>
+              <p class="card-text"> Developed a frontend site built in React.js using Typescript and a backend API in GO
+                that will collect all
+                in-progress tournaments from a user on the site challonge.com and display pending matches.</p>
               <div class="text-center">
                 <a href="https://pending-matches-ui.onrender.com/" class="btn btn-success">Link</a>
               </div>
@@ -154,7 +148,8 @@ in-progress tournaments from a user on the site challonge.com and display pendin
             <img class="card-img-top" src="static/img/logo.png" alt="Card image" style="width:100%">
             <div class="card-body">
               <h4 class="card-title">NYCFGC.gg</h4>
-              <p class="card-text">Site to show upcoming fighting game community (FGC) events and links to community resources.</p>
+              <p class="card-text">Site to show upcoming fighting game community (FGC) events and links to community
+                resources.</p>
               <div class="text-center">
                 <a href="https://nycfgc.gg" class="btn btn-success">Link</a>
               </div>
@@ -165,46 +160,18 @@ in-progress tournaments from a user on the site challonge.com and display pendin
       <br>
       <div class="row">
         <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+          <div class="card">
+            <img class="card-img-top" src="static/img/logo.png" alt="Card image" style="width:100%">
             <div class="card-body">
-              <h4 class="card-title">Messaging Service</h4>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <div class="text-center">
-                <a href="#" class="btn btn-success">Link</a>
-              </div>
+              <h4 class="card-title">Personal Site</h4>
+              <p class="card-text">Personal Site made with bootstap html, css, vanilla js and github static hosting.
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <h4 class="card-title">Twitter Clone</h4>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <div class="text-center">
-                <a href="#" class="btn btn-success">Link</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <h4 class="card-title">Blog App</h4>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <div class="text-center">
-                <a href="#" class="btn btn-success">Link</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <br>
   </section>
 
+  <!-- resume section -->
   <section id="resume">
     <div class="container mt-3">
       <h1 class="text-center">Resume</h1>
@@ -229,6 +196,7 @@ in-progress tournaments from a user on the site challonge.com and display pendin
 
 
   <!-- Custom JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="static/js/scrolling-nav.js"></script>
 
 </body>
